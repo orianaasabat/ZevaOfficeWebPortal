@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-OfficeWebPortal-B7CFCB9A-4E83-429E-9742-0DAD4D8C9FFE</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6" />
+ 
+    <PackageReference Include="AspNetCore.LegacyAuthCookieCompat" Version="2.0.2" />
+    <PackageReference Include="Blazored.SessionStorage" Version="1.0.12" />
+    <PackageReference Include="Cloudcrate.AspNetCore.Blazor.Browser.Storage" Version="3.0.0" />
+    <PackageReference Include="LocalStorage" Version="2.0.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.EventCounterCollector" Version="2.15.0-beta2" />
+    <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.3" />
+    <PackageReference Include="Microsoft.AspNet.Razor" Version="3.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.CookiePolicy" Version="2.2.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.0-preview1.19508.20" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Exchange.WebServices" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Owin" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Owin.Host.SystemWeb" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Owin.Security" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Owin.Security.Cookies" Version="4.1.0" />
+    <PackageReference Include="Owin" Version="1.0.0" />
+    <PackageReference Include="store2" Version="2.11.2" />
+    <PackageReference Include="System.IO" Version="4.3.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="5.0.0-preview.7.20364.11" />
+    <PackageReference Include="Vintasoft.Imaging.Web.ApiControllers" Version="2.1.2.1" />
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Exchange.WebServices">
+      <HintPath>..\..\..\..\..\..\Program Files\Microsoft\Exchange\Web Services\2.2\Microsoft.Exchange.WebServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Exchange.WebServices.Auth">
+      <HintPath>..\..\..\..\..\..\Program Files\Microsoft\Exchange\Web Services\2.2\Microsoft.Exchange.WebServices.Auth.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
